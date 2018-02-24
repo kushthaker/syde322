@@ -1,2 +1,1 @@
-# syde322
-Software Design Course
+# boolean-math
