@@ -1,0 +1,40 @@
+Implement following rules:
+
+1. Simple Expression
+
+X + 0 = X
+X1 = X
+X + 1 = 1
+X0 = 0
+X + X = X
+XX = X
+X + ~X = 1
+X~X = 0
+
+2. Complex Expression
+
+X(Y + Z) = XY + XZ
+X + YZ = (X+Y)(X+Z)
+X + XY = X
+X(X + Y) = X
+XY + X~Y = X
+(X+Y)(X+~Y) = X
+
+3. Return Previous Simplification
+
+
+X~X + X(X+Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
